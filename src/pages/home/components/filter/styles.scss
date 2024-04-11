@@ -1,0 +1,60 @@
+.filter {
+  background: var(--white);
+  padding: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
+  position: sticky;
+  top: 20px;
+
+  &__title {
+    padding-left: 20px;
+  }
+
+  &__field {
+    position: relative;
+  }
+
+  &__input {
+    display: none;
+
+    &:checked + .filter__icon-check {
+      opacity: 1;
+    }
+
+    &:checked ~ .filter__label:before {
+      border-color: var(--primary);
+    }
+  }
+
+  &__icon-check {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+    opacity: 0;
+    transition: .2s;
+  }
+
+  &__label {
+    display: block;
+    line-height: 40px;
+    padding: 0 10px 0 60px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgb(241, 252, 255);
+    }
+
+    &:before {
+      content: '';
+      border-radius: 2px;
+      border: 2px solid rgb(154, 187, 206);
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: .2s;
+    }
+  }
+}

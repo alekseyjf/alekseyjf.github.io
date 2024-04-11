@@ -1,0 +1,42 @@
+.tickets {
+  margin-bottom: 100px;
+
+  &__show-more {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+    width: 100%;
+    line-height: 50px;
+    margin-top: 20px;
+  }
+}
+
+.ticket-card {
+  padding: 10px;
+  background: var(--white);
+  border-radius: 5px;
+  margin-top: 18px;
+  display: block;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__logo {
+    max-width: 150px;
+    max-height: 50px;
+  }
+
+  &__price {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary);
+  }
+}
