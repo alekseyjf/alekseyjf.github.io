@@ -1,5 +1,6 @@
 {
   "name": "tickets",
+  "homepage": "https://github.com/alekseyjf/alekseyjf.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
