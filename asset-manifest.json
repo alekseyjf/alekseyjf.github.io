@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alekseyjf/alekseyjf.github.io/static/css/main.9015273e.css",
+    "main.js": "/alekseyjf/alekseyjf.github.io/static/js/main.ae9efab1.js",
+    "static/js/453.1f8eaef5.chunk.js": "/alekseyjf/alekseyjf.github.io/static/js/453.1f8eaef5.chunk.js",
+    "static/media/europe.svg": "/alekseyjf/alekseyjf.github.io/static/media/europe.4ef24a7cc59f594c4a2504c25d6863b0.svg",
+    "static/media/icon-logo.svg": "/alekseyjf/alekseyjf.github.io/static/media/icon-logo.0ede33dbaf21165ee95855226efbc432.svg",
+    "index.html": "/alekseyjf/alekseyjf.github.io/index.html",
+    "static/media/icon-check.svg": "/alekseyjf/alekseyjf.github.io/static/media/icon-check.90256b162b307139fb760bb1bfc08b53.svg",
+    "main.9015273e.css.map": "/alekseyjf/alekseyjf.github.io/static/css/main.9015273e.css.map",
+    "main.ae9efab1.js.map": "/alekseyjf/alekseyjf.github.io/static/js/main.ae9efab1.js.map",
+    "453.1f8eaef5.chunk.js.map": "/alekseyjf/alekseyjf.github.io/static/js/453.1f8eaef5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9015273e.css",
+    "static/js/main.ae9efab1.js"
+  ]
+}
